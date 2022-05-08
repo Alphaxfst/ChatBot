@@ -1,0 +1,42 @@
+{"intents":
+  [
+    {
+      "tag":"greeting",
+      "input":["hello","hi there","nice to meet you","hi, can i ask?","i wanna ask something", "i want to ask something","hi","hey there","hey","hi there","hi, nice to meet you","hello there","anyone there ?","i wanna complaint","i want to complaint", "halo", "hola"],
+      "responses":[
+          "Hi. Welcome to Traveloka ChatBot. How can I help you?",
+          "Hello, I am Traveloka ChatBot. How may I help you?"
+        ]
+    },
+    {
+      "tag":"goodbye",
+      "input":["thank you","thanks","thanks for the info","thanks for the help","thank you so much","bye","okay bye","goodbye","see you later","Goodbye"],
+      "responses":[
+          "Thanks for using Traveloka Chatbot",
+          "Thanks for using our service, hopefully it can solve your problem"
+        ]
+    },
+    {
+      "tag":"flight_reschedule",
+      "input":["i want to reschedule my hotel","how to reschedule my hotel?","can i reschedule my hotel?","i'd like to reshcedule my hotel", "i think i wanna reschedule my hotel"],
+      "responses":[
+          "Hi, for further information and steps regarding hotel rescheduling, please click the following link \nhttps://www.traveloka.com/en-en/reschedule/hotel"
+        ]
+    },
+    {
+      "tag":"hotel_reschedule",
+      "input":["i want to reschedule my flight","how to reschedule my flight?","can i reschedule my flight?","i'd like to reshcedule my flight", "i think i wanna reschedule my flight"],
+      "responses":[
+          "Hi, for further information and steps regarding flight rescheduling, please click the following link \nhttps://www.traveloka.com/en-en/reschedule/flight"
+        ]
+    },
+    {
+      "tag":"call center",
+      "input":["what is the call center number","can i have the call center number","may i have tha call center number","can i call the call center", "how to call the call center", "what is the call center contact", "how to contact the call center"],
+      "responses":[
+          "Hi, please contact our call center via the following number \n+44-2031-399-21 (Global)\n+62-21-2910-3300 (Indonesia)\n+65-6911-8138 (Singapore)"
+        ]
+    }
+    
+  ]
+}
